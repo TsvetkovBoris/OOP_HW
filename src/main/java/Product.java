@@ -1,9 +1,9 @@
-public class Prod {
+public class Product {
     private String TypePD;
     private String NamePD;
     private Integer VolumePD;
     private Integer CashPD;
-    public Prod(String typePD, String namePD, int volumePD, int cashPD) {
+    public Product(String typePD, String namePD, int volumePD, int cashPD) {
         this.TypePD = typePD;
         this.NamePD = namePD;
         this.VolumePD = volumePD;
@@ -24,6 +24,6 @@ public class Prod {
     }
 
     public String toString() {
-        return "Product{" + "Type= " + TypePD + ", Name= " + NamePD + ", Volume = " + VolumePD +  ", Cash= " + CashPD + "}";
+        return "Type - " + TypePD + ", Name - " + NamePD + ", Volume - " + VolumePD +  ", Cash - " + CashPD + "\n";
     }
 }
